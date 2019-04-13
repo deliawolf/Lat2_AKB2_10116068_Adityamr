@@ -1,0 +1,30 @@
+package com.example.lat2_akb2_10116068_adityamr;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+/*
+Tanggal Pengerjaan  : 13-04-2019
+NIM                 : 10116068
+Nama                : Aditya Maulana Rajak
+Kelas               : AKB-2
+ChangeLog
+``Main Activity
+13-04-2019 12:00 PM - 02:00 PM
+``Register
+13-04-2019 04:00 PM - 06:00 PM
+13-04-2019 07:30 PM - 23:30 PM
+``Almost There
+13-04-2019 23:30 PM - 23:45 PM
+``Verify
+13-04-2019 23:45 PM - 24:00 AM
+``Home
+13-05-2019 24:00 AM - 05:00 AM
+ */
+public class Home extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_home);
+    }
+}

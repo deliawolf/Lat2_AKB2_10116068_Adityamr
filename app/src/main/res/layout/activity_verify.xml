@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Verify">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#40B4E7">
+
+
+        <TextView
+            android:id="@+id/verify_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/verity_account"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/deskripsi_verify"
+            android:layout_below="@id/verify_text"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deskripsi_verify"
+            android:layout_marginBottom="40dp"/>
+
+        <EditText
+            android:id="@+id/code_verify"
+            android:layout_below="@+id/deskripsi_verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/verify_hint"
+            android:gravity="center_horizontal"
+            android:textColorHint="#FFFFFE"
+            android:backgroundTint="#FFFFFF"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="10dp"
+            tools:targetApi="lollipop" />
+        <Button
+            android:id="@+id/verify_send"
+            android:layout_below="@+id/code_verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/klik_resend"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_style_rounded"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/verify_send"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="@string/resend"/>
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Lat2-AKB2-10116068-Adityamr</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="ulang_password">Retype Password</string>
+    <string name="job">Job</string>
+    <string name="alamat">Home Address</string>
+    <string name="alamat_default">Default Location</string>
+    <string name="login"><b>LOGIN</b></string>
+    <string name="ke_facebook"><b>CONNECT WITH FACEBOOK</b></string>
+    <string name="OR"><b>OR</b></string>
+    <string name="register"><font color="#FEFEFE">Doesn\'t have account ? </font><font color="#FEFFFE"><b>Register</b></font></string>
+    <string name="title_activity_register"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160; Register</b></string>
+    <string name="activity_register"><b>REGISTER</b></string>
+    <string name="email">Email</string>
+    <string name="personal">Personal</string>
+    <string name="organisasi">Organization</string>
+    <string name="phone_numer">Phone Number</string>
+    <string name="tipe_darah">Blood Type</string>
+    <string name="Reshus">Reshus</string>
+    <string name="persetujuan">Agree with Terms and Conditions</string>
+    <string name="almost">Almost There</string>
+    <string name="deskripsi_almost">Thank you for registering with us. One more \nstep, you need to check your email \nto active your account</string>
+    <string name="verify">VERIFY</string>
+    <string name="verity_account">Verify Your Account</string>
+    <string name="deskripsi_verify">we have verification code to your email</string>
+    <string name="verify_hint"><font color="#FEFEFE">enter verification code here...</font></string>
+    <string name="resend">doesn\'t get the code? <font color="#FEFFFE"><b>Resend</b></font></string>
+    <string name="klik_resend">SEND</string>
+    <string name="home_name">Aditya Maulana Rajak</string>
+    <string name="golongan_darah">Blood Type : O</string>
+    <string name="search_donor"><b>Search Donor</b></string>
+    <string name="dec_search_donor">Search donor near you</string>
+    <string name="Blood_needed"><b>Blood Needed</b></string>
+    <string name="dec_blood_needed">4 Users need blood</string>
+    <string name="Message"><b>Message</b></string>
+    <string name="dec_message">5 New Messages</string>
+    <string name="Donor_History"><b>Donor History</b></string>
+    <string name="dec_donor_history">5 Gives, 2 Received</string>
+</resources>
+

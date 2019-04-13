@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#40B4E7">
+
+            <ImageView
+                android:id="@+id/welcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_welcome_logo"
+                android:layout_marginTop="150dp"/>
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_below="@+id/welcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/username"
+                android:textColorHint="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="10dp"
+                tools:targetApi="lollipop" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_below="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:textColorHint="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/login"
+                android:layout_below="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/button_style_rounded"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:id="@+id/or"
+                android:layout_below="@id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/OR"
+                android:layout_marginTop="20dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"/>
+
+            <Button
+                android:id="@+id/ke_facebook"
+                android:layout_below="@id/or"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_welcome_fb_login"
+                android:gravity="center"
+                android:paddingLeft="60dp"
+                android:paddingRight="40dp"
+                android:text="@string/ke_facebook"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/button_style_rounded"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp" />
+
+            <TextView
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ke_facebook"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/register"
+                android:textColor="#FFFEFF" />
+
+        </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
